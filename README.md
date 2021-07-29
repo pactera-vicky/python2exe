@@ -2,9 +2,9 @@
 
 the simple method of packaging python project to executable file
 
-##实现图片灰化及统一命名的可执行文件
+## implement to change pics colour to gray and normalize the nam
 
-目录结构
+file structure
 
 |project
     |--imgs_id        # -----运行原始图片存放位置
@@ -13,10 +13,10 @@ the simple method of packaging python project to executable file
     |--imgs_result    #------运行后图片存储位置
     |--*.ico          # ------图标
 
-##打包命令
+##command of packaging
 
 pyinstaller -D main.spec -i I_img.ico
 
-##运行方法：
+##runing method：
 
-终端运行dist/mian/main.exe即可
+in the terminal run:dist/mian/main.exe
